@@ -20,7 +20,7 @@ const Index = () => {
              </div>
              <div className="page-col-two">
                  <span>
-                     <img src="" alt="image" />
+                     <img src="/image/img-10.jfif" alt="image" />
                  </span>
              </div>
           </div>

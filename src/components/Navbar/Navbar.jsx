@@ -1,5 +1,5 @@
 import './navbar.css'
-import React from 'react'
+import React, { useState } from 'react'
 import { IoIosSwitch } from 'react-icons/io'
 import { FiPhoneCall } from 'react-icons/fi'
 import { FaRegUser } from 'react-icons/fa'
@@ -8,8 +8,12 @@ import { MdOutlineEmail} from 'react-icons/md'
 import { AiOutlineDown } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import NavbarCategory from './NavbarCategory'
+import Cart from '../Cart/Cart'
 
 const Navbar = () => {
+
+    const [open, setOpen] = useState(false)
+
   return (
     <>
         <div className="navbar-container">
@@ -36,13 +40,14 @@ const Navbar = () => {
                 <div className="nav-icons">
                     <IoIosSwitch className='action-icon'/>
                     <FaRegUser className='action-icon'/>
-                    <BsCart2 className='action-icon'/>
+                    <BsCart2 onClick={() => setOpen(true)} className='action-icon'/>
                 </div>
             </div>
             <div className='div'>
             <NavbarCategory />
             </div>
         </div>
+        {open && <Cart />}
     </>
   )
 }

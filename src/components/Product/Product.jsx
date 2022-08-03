@@ -33,7 +33,7 @@ const Product = () => {
                     >
                     <div className="card-header">
                         <div className="card-head-one">{item.offpercentage}</div>
-                        <div className="card-head-two"><a> <AiOutlineHeart/></a></div>
+                        <div className="card-head-two"><a href='/'> <AiOutlineHeart/></a></div>
                     </div>
                     <div className="card-body">
                         <Link to='/'>
@@ -47,7 +47,7 @@ const Product = () => {
                             <span className="three">${item.price}<span className="inside3">{item.priceoff}</span></span>
                         </div>
                         <div className="card-footer-container2">
-                            <a><VscDiffAdded /></a>
+                            <a href='/'><VscDiffAdded /></a>
                         </div>
                    </div>
              </div>

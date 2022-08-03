@@ -12,6 +12,7 @@
     align-items: center;
     gap: 12px;
     text-align: center;
+    position: absolute;
     padding-top: 150px;
 }
 
@@ -54,4 +55,9 @@
 
 .page-col-two{
     flex: 1;
+   position: relative;
+}
+.page-col-two span img{
+    width: 400px !important;
+    height: 400px !important;
 }

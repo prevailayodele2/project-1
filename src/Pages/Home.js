@@ -3,7 +3,7 @@ import Index from '../components/FirstPage';
 import Navbar from '../components/Navbar/Navbar'
 import ProductHome from '../components/Product/ProductHome';
 
-export const Home = () => {
+const Home = () => {
   return (
     <>
       <Navbar />
@@ -12,3 +12,5 @@ export const Home = () => {
     </>
   )
 }
+
+export default Home
