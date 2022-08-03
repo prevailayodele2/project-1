@@ -1,0 +1,178 @@
+.navbar-container{
+    height: 200px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px #1313;
+}
+
+.navbar-col{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: navy;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 35px;
+    margin: 10px;
+}
+.items{
+    margin: 10px;
+}
+.item-1{
+    gap: 23px;
+    justify-content: center;
+    padding-right: 40px;
+
+}
+
+.number, .e-mail, .item-1{
+    letter-spacing: 1.3px;
+    font-size: 15px;
+    color: aliceblue;
+
+}
+.phone, .email{
+    padding-right: 10px;
+
+}
+.down {
+    font-size: 10px;
+    padding-left: 3px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px;
+}
+.logo{
+   margin-left: 12px;
+}
+.logo a{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 900;
+    color: navy;
+}
+
+.nav-icons{
+  margin-right: 15px;
+
+}
+
+.search-bar{
+  margin: 14px;
+}
+.search-bar input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.action-icon{
+    margin: 14px;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(218, 238, 238);
+    border-radius: 50%;
+}
+
+.navbar-row-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div{
+    margin-top: -20px
+}
+
+.category-inner span:first-child{
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 12px;
+}
+.category{
+  margin-top: -52px;
+   background-color: azure;
+   padding: 12px 20px;
+   cursor: pointer;
+}
+
+.category-right ul{
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+.navbardrop-list{
+    height: 10vh;
+}
+
+.navbardrop-list a {
+    color: #131313;
+}
+.category-list a{
+    text-decoration: none;
+    color: #131313;
+    font-size: 15px;
+    padding: 14px;
+    letter-spacing: 1px;
+}
+
+.category-list span{
+    padding-left: 5px;
+
+}
+ 
+
+/*
+dropdown
+*/
+
+.home-dropdown{
+   background: rgb(240, 240, 240);
+   display: flex;
+   flex-direction: column;
+  top: 200px;
+   padding: 20px;
+   border-radius: 10px;
+    text-align: start;
+    position: absolute;
+    list-style: none;
+}
+
+.active{
+    color: #ff0000;
+}
+
+
+.home-hover a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    letter-spacing: 0.8px;
+    font-size: 20px;
+    color: #131313;
+    cursor: pointer;
+}
+.home-hover a:hover{
+    text-decoration: underline;
+}
+
+.clicked{
+    display: none;
+}
+
