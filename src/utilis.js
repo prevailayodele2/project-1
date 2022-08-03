@@ -2,7 +2,7 @@ import ProductStar from "./components/Product/ProductStar"
 
 export const product = [
     {
-        id:8,
+        id:1,
         offpercentage: '15% off',
         image: '/image/img-1 (1).jfif',
         slug:'product1',
