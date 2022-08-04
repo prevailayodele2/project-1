@@ -50,6 +50,16 @@ export const product = [
         title: 'Product Five',
         price: 80.04,
         priceoff: 160.00,
+    },
+    {
+        id:6,
+        offpercentage: '50% off',
+        image: '/image/img-7.jfif',
+        star: <ProductStar step1 step2 step3 step4 step5 step6></ProductStar>,
+        slug:'product6',
+        title: 'Product Six',
+        price: 80.04,
+        priceoff: 160.00,
     }
 ]
 
