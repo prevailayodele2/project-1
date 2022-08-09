@@ -1,153 +1,180 @@
-import ProductStar from "./components/Product/ProductStar"
 
 export const product = [
     {
         id:1,
         offpercentage: '15% off',
         image: '/image/img-1 (1).jfif',
+        promotion: false,
+        top: false,
+        category: 'boys',
         slug:'product1',
         title: 'Product One',
-        star: <ProductStar step1 step2 step3 step4 step5 ></ProductStar>,
         price: 30.04,
-        priceoff: 60.00,
-    },
+        },
     {
         id:2,
         offpercentage: '12% off',
         image: '/image/img-1 (6).jfif',
+        promotion: false,
+        top: false,
+        category: 'boys',
         slug:'product2',
         title: 'Product Two',
-        star: <ProductStar step1 step2 step3 step4 ></ProductStar>,
         price: 60.58,
-        priceoff: 110.00,
-    },
+         },
     {
         id:3,
         offpercentage: '10% off',
         image: '/image/img-1 (8).jfif',
+        promotion: false,
+        top: false,
+        category: 'boys',
         slug:'product3',
         title: 'Product Three',
-        star: <ProductStar step1 step2 step3 ></ProductStar>,
-        price: 40.04,
-        priceoff: 45.50,
-    },
+         price: 40.04,
+        },
     {
         id:4,
         offpercentage: '5% off',
         image: '/image/img-1.jfif',
+        promotion: false,
+        top: false,
+        category: 'girls',
         slug:'product4',
         title: 'Product Four',
-        star: <ProductStar step1 step2 step3 step4></ProductStar>,
         price: 95.04,
-        priceoff: 120.00,
-    },
+         },
     {
         id:5,
         offpercentage: '50% off',
         image: '/image/img-6.jfif',
-        star: <ProductStar step1 step2 step3 step4 step5 step6></ProductStar>,
+        promotion: false,
+        top: false,
+        category: 'girls',
         slug:'product5',
         title: 'Product Five',
         price: 80.04,
-        priceoff: 160.00,
-    },
+         },
     {
         id:6,
         offpercentage: '50% off',
         image: '/image/img-7.jfif',
-        star: <ProductStar step1 step2 step3 step4 step5 step6></ProductStar>,
+        promotion: true,
+        top: true,
+        category: 'girls',
         slug:'product6',
         title: 'Product Six',
         price: 80.04,
-        priceoff: 160.00,
-    }
-]
-
-export const categoryItems = [
-   {
-       id:1,
-       title:'Home',
-       path: '/'
-   },
-   {
-       id:2,
-       title:'Mega Menu',
-       path: '/megamenu'
-   },
-   {
-       id:3,
-       title:'Full Screen Menu',
-       path: '/screenmenu'
-   },
-   {
-       id:4,
-       title:'Pages',
-       path: '/pages'
-   },
-   {
-       id:5,
-       title:'User Account',
-       path: '/useraccount'
-   },
-   {
-       id:6,
-       title:'Vendor Account',
-       path: '/vendoraccount'
-   },
-]
-
-export const HomehoverItems = [
+         },
+    {
+        id:6,
+        offpercentage: '50% off',
+        image: '/image/img-7.jfif',
+        promotion: true,
+        top: true,
+        category: 'men',
+        slug:'product6',
+        title: 'Product Six',
+        price: 80.04,
+         },
+    {
+        id:7,
+        offpercentage: '50% off',
+        image: '/image/img-7.jfif',
+        promotion: true,
+        top: true,
+        category: 'men',
+        slug:'product7',
+        title: 'Product Seven',
+        price: 88.04,
+         },
+    {
+        id:8,
+        offpercentage: '50% off',
+        image: '/image/img-7.jfif',
+        promotion: true,
+        top: true,
+        category: 'men',
+        slug:'product8',
+        title: 'Product Eight',
+        price: 90.04,
+         },
+    {
+        id:9,
+        offpercentage: '50% off',
+        image: '/image/img-7.jfif',
+        promotion: true,
+        top: true,
+        category: 'ladies',
+        slug:'product9',
+        title: 'Product Nine',
+        price: 800.04,
+         },
+    {
+        id:10,
+        offpercentage: '50% off',
+        image: '/image/img-7.jfif',
+        promotion: true,
+        top: true,
+        category: 'ladies',
+        slug:'product10',
+        title: 'Product Ten',
+        price: 400.04,
+         },
     {
         id:11,
-        path: '/superstore',
-        title: 'Super Store'
-    },
+        offpercentage: '50% off',
+        image: '/image/img-7.jfif',
+        promotion: true,
+        top: true,
+        category: 'ladies',
+        slug:'product11',
+        title: 'Product Eleven',
+        price: 120.04,
+         },
     {
         id:12,
-        path: '/furniture',
-        title: 'Furniture'
-    },
+        offpercentage: '50% off',
+        image: '/image/img-7.jfif',
+        promotion: true,
+        top: true,
+        category: 'couples',
+        slug:'product12',
+        title: 'Product Twelve',
+        price: 190.04,
+         },
     {
         id:13,
-        path: '/grocery',
-        title: 'Grocery'
-    },
+        offpercentage: '50% off',
+        image: '/image/img-7.jfif',
+        promotion: true,
+        top: true,
+        category: 'couples',
+        slug:'product13',
+        title: 'Product Thirteen',
+        price: 180.04,
+         },
     {
         id:14,
-        path: '/health',
-        title: 'Health and Beauty'
-    },
+        offpercentage: '50% off',
+        image: '/image/img-7.jfif',
+        promotion: true,
+        top: true,
+        category: 'couples',
+        slug:'product14',
+        title: 'Product Fourteen',
+        price: 160.04,
+         },
     {
         id:15,
-        path: '/fashion',
-        title: 'Fashion'
-    },
-    {
-        id:16,
-        path: '/giftStore',
-        title: 'Gift Store'
-    },
-    {
-        id:17,
-        path: '/gadget',
-        title: 'Gadget'
-    },
-]
+        offpercentage: '50% off',
+        image: '/image/img-7.jfif',
+        category: 'boys',
+        promotion: true,
+        top: true,
+        slug:'product15',
+        title: 'Product Fifteen',
+        price: 170.04,
+         },
 
-export const navbarPagehover = [
-  {
-      id: 1,
-      path: '/salespage',
-      title: 'Sales Page'
-  },
-  {
-      id: 2,
-      path: '/vendor',
-      title: 'Vendor'
-  },
-  {
-      id: 3,
-      path: '/shop',
-      title: 'Shop'
-  },
 ]

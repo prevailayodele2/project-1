@@ -1,14 +1,16 @@
 import React from 'react'
-import Index from '../components/FirstPage';
+import HomePageDeals from '../components/Deals/HomePageDeals'
 import Navbar from '../components/Navbar/Navbar'
-import ProductHome from '../components/Product/ProductHome';
+import BannerExample from '../components/Product/Product-carousel/CarouselComponent'
+import Recommmended from '../components/Recomended/Recommmended'
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <Index />
-      <ProductHome/>
+      <BannerExample />
+      <Recommmended />
+      <HomePageDeals />
     </>
   )
 }
